@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    background-image: url(./bg-img.jpg);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 120%;
+}
+
+.card {
+    background-color: #000000d0;
+    color: white;
+    padding: 2em;
+    margin: 1em;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 30px;
+}
+
+.search {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.search input {
+    width: 85%;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+}
+
+.search button {
+    width: 3.2em;
+    height: 3.2em;
+    margin-left: 0.5em;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.search button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.desc-container {
+    display: flex;
+    align-items: center;
+}
+
+.temp {
+    margin: 0 0 15px 0;
+}
+
+.description {
+    margin-left: 10px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.humidity {
+    margin-bottom: 5px;
+}
+
+.loading{
+    display: none;
+}
